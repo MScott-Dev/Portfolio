@@ -8,8 +8,7 @@ import laptop from "../assets/images/laptop.jpg"
 
 export default function MainWelcome() {
    return ( 
-    <section className="h-[95vh] w-[100vw] inline-flex justify-evenly flex-wrap content-center">
-        {/* Text area */}
+    <section className="h-[95vh] w-[100vw] inline-flex justify-evenly flex-wrap content-center background">
         <section>
             <h1 className="font-bold text-[5rem] text-Offwhite">Matthew Scott</h1>
             <p className="text-[1.5rem] text-Offwhite"> I&apos;m{" "}
@@ -31,10 +30,7 @@ export default function MainWelcome() {
             </section>
         </section>
         <section>
-            <img src={laptop} className="photo h-[450px] border-8 grayscale rotate-6 skew-y-6 mt-8" />
-        </section>
-        <section>
-
+            <img src={laptop} className="photo h-[450px] border-8 grayscale rotate-6 skew-y-6 mt-8 " />
         </section>
     </section>
    )

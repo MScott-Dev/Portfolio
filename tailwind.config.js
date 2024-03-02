@@ -9,6 +9,9 @@ export default {
     extend: {
       colors: {
         Offwhite: "#fcfffd",
+        Offgray: "#a0acb2",
+        teal: "#6acdba",
+        OffBlack: "#121516",
       },
     },
   },
