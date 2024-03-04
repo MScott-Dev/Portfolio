@@ -2,7 +2,7 @@ import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import iceland from "../assets/images/Iceland.jpg"
 
 
-export default function AboutBanner() {
+export default function ProfileBanner() {
     return (
         <section className="background w-full">
             <ParallaxBanner style={{ aspectRatio: '3 / 1' }}>
@@ -13,7 +13,7 @@ export default function AboutBanner() {
                     loading="lazy"
                     />
                     <div className="absolute inset-0 flex items-center justify-center">
-                        <h1 className="text-8xl text-Offwhite font-thin border-b mb-3">About me</h1>
+                        <h1 className="text-8xl text-Offwhite font-thin border-b mb-3">Projects</h1>
                     </div>
                 </ParallaxBannerLayer>
             </ParallaxBanner>

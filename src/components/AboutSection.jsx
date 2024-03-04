@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <section>
-            <section className="h-[20vh] w-screen background flex justify-evenly flex-wrap content-center">
+            <section className="h-[20vh] w-full background flex justify-evenly flex-wrap content-center">
                 <section className="text-Offwhite w-[70vw]">
                     <p>
                         Hey I&apos;m Matt, I grew up in a small town in Michigan with most of my family. 
@@ -13,7 +13,7 @@ export default function About() {
                     </p>
                 </section>
             </section>
-            <section className="h-[60vh] w-screen background flex justify-evenly flex-wrap content-center">
+            <section className="h-[60vh] w-full background flex justify-evenly flex-wrap content-center">
                 <div className="artboard phone-1 rounded-3xl mx-1 bg-Offgray">
                     <section className="h-[60px]  w-full flex justify-center flex-wrap content-center px-2 bold text-2xl text-teal shadow-2xl border-b-black border-b-2">Frontend</section>
                     <section className="w-full flex justify-center flex-wrap content-center">
