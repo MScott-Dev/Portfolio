@@ -12,7 +12,7 @@ export default function MainWelcome() {
             <h1 className="font-bold text-[5rem] text-Offwhite">Matthew Scott</h1>
             <p className="text-[1.5rem] text-Offwhite"> I&apos;m{" "}
                 <ReactTyped
-                strings={["a Developer", "Passionate", "Designer"]}
+                strings={["a Full-Stack Developer", "Passionate", "Hard working"]}
                 typeSpeed={100}
                 loop
                 backSpeed={20}
@@ -29,7 +29,7 @@ export default function MainWelcome() {
             </section>
         </section>
         <section>
-            <a href="https://app.daily.dev/mscottdev"><img 
+            <a className="w-56 sm:w-56 md:w-64 lg:w-96 flex" href="https://app.daily.dev/mscottdev"><img 
             src="https://api.daily.dev/devcards/v2/QWMzwv2jQdL2QHcMCCK3E.png?type=default&r=170" width="356" alt="Matt Scott's Dev Card"/>
             </a>
         </section>

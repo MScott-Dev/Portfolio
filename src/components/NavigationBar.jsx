@@ -21,7 +21,7 @@ export default function NavigationBar() {
     <Disclosure as="nav" className="bg-teal w-full">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 shadow-lg">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -49,7 +49,7 @@ export default function NavigationBar() {
                       <Link
                         key={item.name}
                         to={item.href}
-                        className={currentPage === `${item.href}` ? 'text-black underline' : 'nav-link'}
+                        className={currentPage === `${item.href}` ? 'text-black underline hover:text-Offwhite' : 'text-Offwhite hover:text-Offwhite hover:underline'}
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
@@ -70,8 +70,9 @@ export default function NavigationBar() {
                   key={item.name}
                   as="a"
                   href={item.href}
+                  
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-Offwhite' : 'text-Offwhite hover:bg-gray-700 hover:text-white',
+                    currentPage === `${item.href}` ? 'text-black underline hover:text-Offwhite' : 'text-Offwhite hover:text-Offwhite hover:underline',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
