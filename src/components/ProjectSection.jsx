@@ -23,7 +23,7 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side bg-gray-900 shadow-xl lg:w-auto md:w-60 sm:w-48">
+                <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48">
                     <figure><img className="lg:w-72 md:w-60 sm:w-48" src={techblog} alt="Album"/></figure>
                     <div className="card-body lg:w-72 md:w-60 sm:w-48">
                         <h2 className="card-title text-Offwhite">Binary Blend</h2>
@@ -35,7 +35,7 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side bg-gray-900 shadow-xl lg:w-auto md:w-60 sm:w-48">
+                <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48">
                     <figure><img className="lg:w-72 md:w-60 sm:w-48" src={JATE} alt="Album"/></figure>
                     <div className="card-body lg:w-72 md:w-60 sm:w-48">
                         <h2 className="card-title text-Offwhite">J.A.T.E</h2>
