@@ -4,7 +4,6 @@ import githubLogo from "../assets/images/github.png"
 import instagramLogo from "../assets/images/instagram.png"
 import linkedinLogo from "../assets/images/linkedin.png"
 import slackLogo from "../assets/images/slack.png"
-import laptop from "../assets/images/laptop.jpg"
 
 export default function MainWelcome() {
    return ( 
@@ -30,7 +29,9 @@ export default function MainWelcome() {
             </section>
         </section>
         <section>
-            <img src={laptop} className="photo h-[450px] border-8 grayscale rotate-6 skew-y-6 mt-8 " />
+            <a href="https://app.daily.dev/mscottdev"><img 
+            src="https://api.daily.dev/devcards/v2/QWMzwv2jQdL2QHcMCCK3E.png?type=default&r=170" width="356" alt="Matt Scott's Dev Card"/>
+            </a>
         </section>
     </section>
    )

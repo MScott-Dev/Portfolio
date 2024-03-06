@@ -5,6 +5,11 @@ import AboutBanner from './components/AboutBanner'
 import About from './components/AboutSection'
 import ProjectBanner from './components/ProjectBanner'
 import ProjectSection from './components/ProjectSection'
+import ContactBanner from './components/ContactBanner'
+import Contact from './components/Contactpage'
+import ResumeBanner from './components/ResumeBanner'
+import Resume from './components/ResumeSection'
+
 
 function App() {
 
@@ -16,6 +21,10 @@ function App() {
       <About />
       <ProjectBanner />
       <ProjectSection />
+      <ContactBanner />
+      <Contact />
+      <ResumeBanner />
+      <Resume />
     </section>
   )
 }
