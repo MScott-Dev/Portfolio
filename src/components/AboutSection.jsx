@@ -28,7 +28,7 @@ export default function About() {
                                 </div>
                             </div>
                             <div>
-                                <h1 className="text-Offwhite mx-4 border-b-2 border-teal">Frontend </h1>
+                                <h1 className="text-Offwhite mx-4 border-b-2 border-teal">Frontend</h1>
                             </div>
                             <section className="content-center flex-wrap align-middle">
                                 <section className="flex justify-center h-48 content-center flex-wrap">
@@ -38,6 +38,7 @@ export default function About() {
                                             <li className="list-disc">HTML</li>
                                             <li className="list-disc">CSS</li>
                                             <li className="list-disc">JavaScript</li>
+                                            <li className="list-disc">Kotlin</li>
                                         </ul>
                                     </div>
                                 </section>
@@ -45,9 +46,9 @@ export default function About() {
                                     <div>
                                         <p className="text-Offwhite mx-4 text-bold">Frameworks</p>
                                         <ul className="text-Offgray mx-6">
-                                            <li className="list-disc">HTML</li>
-                                            <li className="list-disc">CSS</li>
-                                            <li className="list-disc">JavaScript</li>
+                                            <li className="list-disc">Tailwindcss</li>
+                                            <li className="list-disc">React</li>
+                                            <li className="list-disc">Vite</li>
                                         </ul>
                                     </div>
                                 </section>
@@ -56,20 +57,43 @@ export default function About() {
 
 
 
-                <div className="artboard phone-1 rounded-3xl bg-Offgray mx-1">
-                    <section className="h-[60px]  w-full flex justify-center flex-wrap content-center px-2 bold text-2xl text-teal shadow-2xl border-b-black border-b-2">Backend</section>
-                    <section className="w-full flex justify-center flex-wrap content-center">
-                        <p  className="text-2xl font-bold">Languages</p>
-                    </section>
-                    <section className="h-[120px] w-full flex justify-center flex-wrap content-center">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </section>
-                    <section className="h-[120px] w-full flex justify-center flex-wrap content-center bold text-2xl">Dev Tools</section>
-                </div>
+                <div className="bg-gray-900 w-[24rem] h-[28rem]rounded-lg">
+                            <div className="flex p-2 gap-1">
+                                <div className="">
+                                    <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
+                                </div>
+                                <div className="circle">
+                                    <span className="bg-yellow-500 inline-block center w-3 h-3 rounded-full"></span>
+                                </div>
+                                <div className="circle">
+                                    <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <h1 className="text-Offwhite mx-4 border-b-2 border-teal">Backend</h1>
+                            </div>
+                            <section className="content-center flex-wrap align-middle">
+                                <section className="flex justify-center h-48 content-center flex-wrap">
+                                    <div>
+                                        <p className="text-Offwhite mx-4 text-bold">Languages</p>
+                                        <ul className="text-Offgray mx-6">
+                                            <li className="list-disc">MySQL</li>
+                                            <li className="list-disc">MongoDB</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                                <section className="flex justify-center h-48 content-center flex-wrap">
+                                    <div>
+                                        <p className="text-Offwhite mx-4 text-bold">Frameworks</p>
+                                        <ul className="text-Offgray mx-6">
+                                            <li className="list-disc">NodeJS</li>
+                                            <li className="list-disc">ExpressJS</li>
+                                            <li className="list-disc">Mongoose</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
 
             </section>
         </section>
