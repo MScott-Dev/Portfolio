@@ -3,13 +3,15 @@ export default function About() {
         <section>
             <section className="h-[20vh] w-full background flex justify-evenly flex-wrap content-center">
                 <section className="text-Offwhite w-[70vw]">
-                    <p>
-                        Hey I&apos;m Matt, I grew up in a small town in Michigan with most of my family. 
-                    I&apos;m a person who loves travel, hanging out with family and friends, and any kind of animal. 
-                    I have a cat named Shadow and a Samoyed named Luna. Iceland is probably my favorite destination 
-                    I&apos;ve visited so far. I was working at the post office for years while hearing my brother talking about career in programming. 
-                    So I started taking some online courses on diffferent programming topics and was hooked! A year after those online classes, 
-                    I was enrolled in college to become a full stack developer and I never looked back!
+                    <p className="text-Offwhite font-semibold text-lg">
+                        Hey everyone I&apos;m Matthew Scott and I am from Michigan. I studied and completed 
+                        a full stack developer coding bootcamp from Michigan State University.
+                        Apart from coding, I enjoy hanging out with friends and family, traveling, and anything to do with animals!
+                    </p>
+                </section>
+                <section className="text-Offwhite w-[70vw] mt-3">
+                    <p className="text-Offwhite font-semibold text-lg">
+                        Check out some my skills below!
                     </p>
                 </section>
             </section>
