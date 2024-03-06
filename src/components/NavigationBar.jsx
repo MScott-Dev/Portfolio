@@ -1,6 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const navigation = [
   { name: 'Dashboard', href: '/', current: true },
@@ -14,7 +14,9 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
 export default function NavigationBar() {
+  const currentPage = useLocation().pathname;
   return (
     <Disclosure as="nav" className="bg-teal w-full">
       {({ open }) => (
@@ -47,10 +49,7 @@ export default function NavigationBar() {
                       <Link
                         key={item.name}
                         to={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-Offwhite' : 'text-Offwhite hover:bg-OffBlack hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
+                        className={currentPage === `${item.href}` ? 'text-black underline' : 'nav-link'}
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
