@@ -1,9 +1,10 @@
 import DownloadButton from "./DownloadButton";
-import iceland from "../assets/images/Iceland.jpg"
+import Banner from "./Banner";
 
 export default function Resume() {
     return (
         <section>
+            <Banner title={"Resume"} />
             <section className="flex flex-wrap justify-center">
                 <h1 className="text-Offwhite ">Download my Resume</h1>
             </section>

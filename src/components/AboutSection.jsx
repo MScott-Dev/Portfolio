@@ -1,6 +1,9 @@
+import Banner from "./Banner";
+
 export default function About() {
     return (
         <section>
+            <Banner title={"About me"}/>
             <section className="h-[20vh] w-full background flex justify-evenly flex-wrap content-center">
                 <section className="text-Offwhite w-[70vw]">
                     <p className="text-Offwhite font-semibold sm:text-sm md:text-base lg:text-lg">
