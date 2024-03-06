@@ -7,7 +7,7 @@ import slackLogo from "../assets/images/slack.png"
 
 export default function MainWelcome() {
    return ( 
-    <section className="h-[95vh] w-full inline-flex justify-evenly flex-wrap content-center background">
+    <section className="h-[95vh] w-full inline-flex justify-evenly flex-wrap content-center background ml-3">
         <section>
             <h1 className="font-bold text-[5rem] text-Offwhite">Matthew Scott</h1>
             <p className="text-[1.5rem] text-Offwhite"> I&apos;m{" "}

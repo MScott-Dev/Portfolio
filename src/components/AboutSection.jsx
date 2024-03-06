@@ -3,21 +3,21 @@ export default function About() {
         <section>
             <section className="h-[20vh] w-full background flex justify-evenly flex-wrap content-center">
                 <section className="text-Offwhite w-[70vw]">
-                    <p className="text-Offwhite font-semibold text-lg">
+                    <p className="text-Offwhite font-semibold sm:text-sm md:text-base lg:text-lg">
                         Hey everyone I&apos;m Matthew Scott and I am from Michigan. I studied and completed 
                         a full stack developer coding bootcamp from Michigan State University.
                         Apart from coding, I enjoy hanging out with friends and family, traveling, and anything to do with animals!
                     </p>
                 </section>
-                <section className="text-Offwhite w-[70vw] mt-3">
-                    <p className="text-Offwhite font-semibold text-lg">
-                        Check out some my skills below!
+                <section className="text-Offwhite w-[70vw]">
+                    <p className="text-Offwhite font-bold text-lg">
+                        Check out some of my skills below!
                     </p>
                 </section>
             </section>
             <section className="h-[60vh] w-full background flex justify-evenly flex-wrap content-center">
 
-                <div className="bg-gray-900 w-[24rem] h-[28rem]rounded-lg">
+                <div className="bg-gray-900 h-[28rem] rounded-lg sm:w-40 md:w-72 lg:w-[24rem]">
                             <div className="flex p-2 gap-1">
                                 <div className="">
                                     <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
@@ -59,7 +59,7 @@ export default function About() {
 
 
 
-                <div className="bg-gray-900 w-[24rem] h-[28rem]rounded-lg">
+                <div className="bg-gray-900 h-[28rem] rounded-lg sm:w-40 md:w-72 lg:w-[24rem]">
                             <div className="flex p-2 gap-1">
                                 <div className="">
                                     <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
