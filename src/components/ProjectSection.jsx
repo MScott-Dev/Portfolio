@@ -4,78 +4,46 @@ export default function Projects() {
     return (
         <section>
 
-            <section className="h-[80vh] w-full background justify-evenly flex-wrap mt-5">
-                <section>
+            <div className="flex flex-wrap justify-center my-10 gap-3">
 
-                    <section className="w-full inline-flex px-10 justify-evenly">
-
-                        <div className="bg-gray-900 w-[24rem] h-[28rem]rounded-lg">
-                            <div className="flex p-2 gap-1">
-                                <div className="">
-                                    <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                                <div className="circle">
-                                    <span className="bg-yellow-500 inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                                <div className="circle">
-                                    <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                            </div>
-                            <div className="card__content flex justify-center">
-                                <img className="w-[22rem]" src={fakeStore} />
-                            </div>
-                            <div>
-                                <p className="text-Offwhite mx-4">Fake Store</p>
-                            </div>
-                            <div>
-                                <p className="text-Offwhite mx-4">
-                                Lorem ipsum dolor, 
-                                sit amet consectetur adipisicing elit. Quasi sit dicta voluptates 
-                                culpa maxime eligendi tempore est blanditiis voluptatum cumque!
-                                </p>
-                            </div>
+                
+                <div className="card lg:card-side bg-base-100 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48">
+                    <figure><img className="lg:w-72 md:w-60 sm:w-36" src={fakeStore} alt="Album"/></figure>
+                    <div className="card-body lg:w-72 md:w-60 sm:w-48">
+                        <h2 className="card-title">New album is released!</h2>
+                        <p>Click the button to listen on Spotiwhy app.</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary">Listen</button>
+                            <button className="btn btn-primary">Listen</button>
                         </div>
+                    </div>
+                </div>
 
-                        <div className="bg-gray-900 w-[24rem] h-[28rem] rounded-lg">
-                            <div className="flex p-2 gap-1">
-                                <div className="">
-                                    <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                                <div className="circle">
-                                    <span className="bg-yellow-500 inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                                <div className="circle">
-                                    <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                            </div>
-                            <div className="card__content flex justify-center">
-                                <img className="w-[22rem]" src={fakeStore} />
-                            </div>
+                <div className="card lg:card-side bg-base-100 shadow-xl lg:w-auto md:w-60 sm:w-48">
+                    <figure><img className="lg:w-72 md:w-60 sm:w-48" src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+                    <div className="card-body lg:w-72 md:w-60 sm:w-48">
+                        <h2 className="card-title">New album is released!</h2>
+                        <p>Click the button to listen on Spotiwhy app.</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary">Listen</button>
+                            <button className="btn btn-primary">Listen</button>
                         </div>
-                        
-                        <div className="bg-gray-900 w-[24rem] h-[28rem] rounded-lg">
-                            <div className="flex p-2 gap-1">
-                                <div className="">
-                                    <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                                <div className="circle">
-                                    <span className="bg-yellow-500 inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                                <div className="circle">
-                                    <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
-                                </div>
-                            </div>
-                            <div className="card__content flex justify-center">
-                                <img className="w-[22rem]" src={fakeStore} />
-                            </div>
+                    </div>
+                </div>
+
+                <div className="card lg:card-side bg-base-100 shadow-xl lg:w-auto md:w-60 sm:w-48">
+                    <figure><img className="lg:w-72 md:w-60 sm:w-48" src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+                    <div className="card-body lg:w-72 md:w-60 sm:w-48">
+                        <h2 className="card-title">New album is released!</h2>
+                        <p>Click the button to listen on Spotiwhy app.</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary">Listen</button>
                         </div>
+                    </div>
+                </div>
 
-                    </section>
-                    
-                    
+            </div>
 
-                </section>
-            </section>
         </section>
     )
 }
