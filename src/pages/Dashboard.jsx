@@ -1,3 +1,4 @@
+import HexBanner from '../components/HexBanner'
 import MainWelcome from '../components/MainWelcome'
 import AboutPage from './About'
 import ContactPage from './Contact'
@@ -10,7 +11,9 @@ export default function DashboardPage() {
                 <MainWelcome />
                 <AboutPage />
                 <ProjectsPage />
+                <HexBanner title='Contact'/>
                 <ContactPage />
+                <HexBanner title='Resume'/>
                 <ResumePage />
             </section>
         )

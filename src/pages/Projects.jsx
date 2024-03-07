@@ -1,15 +1,13 @@
 import fakeStore from "../assets/images/fakeStore.png"
 import techblog from "../assets/images/techblog.png"
 import JATE from "../assets/images/JATE.png"
-import Banner from "../components/Banner";
+import HexBanner from "../components/HexBanner"
 
 export default function ProjectsPage() {
     return (
         <section>
-            <Banner title={"Projects"} />
-            <div className="flex flex-wrap justify-center my-10 gap-3">
-
-                
+            <HexBanner title='Projects'/>
+            <div className="h-[80vh] flex flex-wrap justify-center my-10 gap-3 ">
                 <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48">
                     <figure><img className="lg:w-72 md:w-60 sm:w-36" src={fakeStore} alt="Album"/></figure>
                     <div className="card-body lg:w-72 md:w-60 sm:w-48">

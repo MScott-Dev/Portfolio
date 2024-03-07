@@ -5,7 +5,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { ParallaxProvider } from 'react-scroll-parallax';
 import DashboardPage from './pages/Dashboard.jsx';
 import AboutPage from './pages/About.jsx';
 import ProjectsPage from './pages/Projects.jsx';
@@ -46,8 +45,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ParallaxProvider>
-      <RouterProvider router={router} />
-    </ParallaxProvider>
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
