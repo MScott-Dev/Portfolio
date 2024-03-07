@@ -5,7 +5,7 @@ export default function AboutPage() {
     return (
         <section>
             <HexBanner title='About me'/>
-            <section className="h-[20vh] w-full background flex justify-evenly flex-wrap content-center">
+            <section className="h-auto w-full background flex justify-evenly flex-wrap content-center my-5">
                 <section className="text-Offwhite w-[70vw]">
                     <p className="text-Offwhite font-semibold sm:text-sm md:text-base lg:text-lg">
                         Hey everyone I&apos;m Matthew Scott and I am from Michigan. I studied and completed 
@@ -13,13 +13,13 @@ export default function AboutPage() {
                         Apart from coding, I enjoy hanging out with friends and family, traveling, and anything to do with animals!
                     </p>
                 </section>
-                <section className="text-Offwhite w-[70vw]">
+                <section className="text-Offwhite w-[70vw] mt-3">
                     <p className="text-Offwhite font-bold text-lg">
                         Check out some of my skills below!
                     </p>
                 </section>
             </section>
-            <section className="h-[60vh] w-full background flex justify-evenly flex-wrap content-center">
+            <section className="h-auto w-full background flex justify-evenly flex-wrap content-center my-5 gap-5">
 
                 <div className="bg-gray-900 h-[28rem] rounded-lg sm:w-40 md:w-72 lg:w-[24rem]">
                             <div className="flex p-2 gap-1">
@@ -34,7 +34,7 @@ export default function AboutPage() {
                                 </div>
                             </div>
                             <div>
-                                <h1 className="text-Offwhite mx-4 border-b-2 border-teal">Frontend</h1>
+                                <h1 className="text-Offwhite mx-4 border-b-2 border-teal sm:text-2xl md:text-4xl lg:text-5xl">Frontend</h1>
                             </div>
                             <section className="content-center flex-wrap align-middle">
                                 <section className="flex justify-center h-48 content-center flex-wrap">
@@ -76,7 +76,7 @@ export default function AboutPage() {
                                 </div>
                             </div>
                             <div>
-                                <h1 className="text-Offwhite mx-4 border-b-2 border-teal">Backend</h1>
+                                <h1 className="text-Offwhite mx-4 border-b-2 border-teal sm:text-2xl md:text-4xl lg:text-5xl">Backend</h1>
                             </div>
                             <section className="content-center flex-wrap align-middle">
                                 <section className="flex justify-center h-48 content-center flex-wrap">
