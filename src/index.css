@@ -132,6 +132,6 @@ button:focus-visible {
   background-image: url(/src/assets/images/Hex.svg);
 }
 
-.test {
-  box-shadow: 0px 8px 13px teal;
+p {
+  font-family: 'Alice';
 }
