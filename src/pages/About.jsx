@@ -1,9 +1,8 @@
 import HexBanner from "../components/HexBanner";
 
-
 export default function AboutPage() {
     return (
-        <section>
+        <section className="background">
             <HexBanner title='About me'/>
             <section className="h-auto w-full background flex justify-evenly flex-wrap content-center my-5">
                 <section className="text-Offwhite w-[70vw]">
