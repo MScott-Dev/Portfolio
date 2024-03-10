@@ -1,9 +1,8 @@
+/* eslint-disable react/jsx-no-undef */
 import { ReactTyped } from "react-typed";
 import emailLogo from "../assets/images/email.png"
 import githubLogo from "../assets/images/github.png"
-import instagramLogo from "../assets/images/instagram.png"
 import linkedinLogo from "../assets/images/linkedin.png"
-import slackLogo from "../assets/images/slack.png"
 
 export default function MainWelcome() {
    return ( 
@@ -12,7 +11,7 @@ export default function MainWelcome() {
             <h1 className="font-bold text-[5rem] text-Offwhite">Matthew Scott</h1>
             <p className="text-[1.5rem] text-Offwhite"> I&apos;m{" "}
                 <ReactTyped
-                strings={["a Full-Stack Developer", "Passionate", "Hard working"]}
+                strings={["a Full-Stack Developer", "Passionate", "Hard-working"]}
                 typeSpeed={100}
                 loop
                 backSpeed={20}
@@ -20,12 +19,16 @@ export default function MainWelcome() {
                 showCursor={true}
                 />
             </p>
-            <section className="flex w-1/4">
-                <img className="p-2" src={githubLogo}  />
-                <img className="p-2" src={emailLogo}  />
-                <img className="p-2" src={instagramLogo}  />
-                <img className="p-2" src={linkedinLogo}  />
-                <img className="p-2" src={slackLogo}  />
+            <section className="flex">
+                <a href="https://github.com/MScott-Dev">
+                    <img className="p-2" src={githubLogo} />
+                </a>
+                <a href="mailto:MScott0199@gmail.com">
+                    <img className="p-2" src={emailLogo} />
+                </a>
+                <a href="https://www.linkedin.com/in/mattrscott/">
+                    <img className="p-2" src={linkedinLogo} />
+                </a>
             </section>
         </section>
         <section>
