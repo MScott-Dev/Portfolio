@@ -18,9 +18,9 @@ export default function AboutPage() {
                     </p>
                 </section>
             </section>
-            <section className="h-auto w-full background flex justify-evenly flex-wrap content-center my-5 gap-5">
+            <section className="h-auto w-full background flex justify-evenly flex-wrap content-center my-5 gap-2">
 
-                <div className="bg-gray-900 h-[28rem] rounded-lg sm:w-40 md:w-72 lg:w-[24rem]">
+                <div className="bg-gray-900 h-[28rem] rounded-lg w-56 sm:w-56 md:w-72 lg:w-[24rem]">
                             <div className="flex p-2 gap-1">
                                 <div className="">
                                     <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
@@ -62,7 +62,7 @@ export default function AboutPage() {
 
 
 
-                <div className="bg-gray-900 h-[28rem] rounded-lg sm:w-40 md:w-72 lg:w-[24rem]">
+                <div className="bg-gray-900 h-[28rem] rounded-lg w-56 sm:w-56 md:w-72 lg:w-[24rem]">
                             <div className="flex p-2 gap-1">
                                 <div className="">
                                     <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
