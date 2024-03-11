@@ -7,7 +7,7 @@ export default function ProjectsPage() {
     return (
         <section>
             <HexBanner title='Projects'/>
-            <div className=" flex flex-wrap justify-center my-10 gap-3 h-auto">
+            <div className=" flex flex-wrap justify-center my-10 gap-3 h-auto p-4">
                 <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48">
                     <figure><img className="lg:w-72 md:w-60 sm:w-36" src={fakeStore} alt="Online Store"/></figure>
                     <div className="card-body lg:w-72 md:w-60 sm:w-48">
@@ -21,7 +21,7 @@ export default function ProjectsPage() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48">
+                <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48 p-4">
                     <figure><img className="lg:w-72 md:w-60 sm:w-48" src={techblog} alt="Blog website"/></figure>
                     <div className="card-body lg:w-72 md:w-60 sm:w-48">
                         <h2 className="card-title text-Offwhite">Binary Blend</h2>
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48">
+                <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48 p-4">
                     <figure><img className="lg:w-72 md:w-60 sm:w-48" src={JATE} alt="Text editer PWA"/></figure>
                     <div className="card-body lg:w-72 md:w-60 sm:w-48">
                         <h2 className="card-title text-Offwhite">J.A.T.E</h2>
