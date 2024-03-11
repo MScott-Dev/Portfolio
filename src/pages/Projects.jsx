@@ -3,10 +3,12 @@ import techblog from "../assets/images/techblog.png"
 import JATE from "../assets/images/JATE.png"
 import HexBanner from "../components/HexBanner"
 import Card from "../components/Card"
+import NavigationBar from "../components/NavigationBar"
 
 export default function ProjectsPage() {
     return (
         <section>
+            <NavigationBar />
             <HexBanner title='Projects'/>
             <div className=" flex flex-wrap justify-center my-10 gap-3 h-auto p-4">
 

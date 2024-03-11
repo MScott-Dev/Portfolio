@@ -1,9 +1,11 @@
 import DownloadButton from "../components/DownloadButton";
 import Resume from "../assets/images/resume.png"
+import NavigationBar from "../components/NavigationBar";
 
 export default function ResumePage() {
     return (
         <section>
+            <NavigationBar />
             <section className="flex flex-wrap justify-center">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-Offwhite mt-3">Download my resume!</h2>
             </section>

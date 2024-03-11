@@ -1,8 +1,10 @@
 import HexBanner from "../components/HexBanner";
+import NavigationBar from "../components/NavigationBar";
 
 export default function AboutPage() {
     return (
         <section className="background">
+            <NavigationBar />
             <HexBanner title='About me'/>
             <section className="h-auto w-full background flex justify-evenly flex-wrap content-center my-5">
                 <section className="text-Offwhite w-[70vw]">
