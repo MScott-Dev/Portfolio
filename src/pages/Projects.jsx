@@ -15,8 +15,12 @@ export default function ProjectsPage() {
                         <p className="text-Offwhite shadow-lg">Mock-up eCommerce shop that features a not-so-diverse selection of 
                         clothes, accessories, and electronics</p>
                         <div className="card-actions justify-end">
-                            <button className="btn bg-teal border-teal text-Offwhite">GitHub</button>
-                            <button className="btn bg-teal border-teal text-Offwhite">Live</button>
+                            <a href="https://github.com/MScott-Dev/Fake-store">
+                                <button className="btn bg-teal border-teal text-Offwhite">GitHub</button>
+                            </a>
+                            <a href="https://boiling-harbor-15362-4fdcf0c8906a.herokuapp.com/">
+                                <button  className="btn bg-teal border-teal text-Offwhite">Live</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -27,8 +31,12 @@ export default function ProjectsPage() {
                         <h2 className="card-title text-Offwhite">Binary Blend</h2>
                         <p className="text-Offwhite">The go-to destination for those looking to blend their love for technology and coding</p>
                         <div className="card-actions justify-end">
-                            <button className="btn bg-teal border-teal text-Offwhite">GitHub</button>
-                            <button className="btn bg-teal border-teal text-Offwhite">Live</button>
+                            <a href="https://github.com/MScott-Dev/Tech-Blog-Website">
+                                <button className="btn bg-teal border-teal text-Offwhite">GitHub</button>
+                            </a>
+                            <a href="https://safe-escarpment-21778-aea97de29b07.herokuapp.com/">
+                                <button  className="btn bg-teal border-teal text-Offwhite">Live</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -40,7 +48,12 @@ export default function ProjectsPage() {
                         <p className="text-Offwhite">A Progressive Web App text editor website combines the features of a 
                         traditional text editor with the advantages of a Progressive Web App</p>
                         <div className="card-actions justify-end">
-                            <button className="btn bg-teal border-teal text-Offwhite">Listen</button>
+                            <a href="https://github.com/MScott-Dev/Text-Editor">
+                                <button className="btn bg-teal border-teal text-Offwhite">GitHub</button>
+                            </a>
+                            <a href="https://just-another-text-editor-dfz1.onrender.com/">
+                                <button  className="btn bg-teal border-teal text-Offwhite">Live</button>
+                            </a>
                         </div>
                     </div>
                 </div>
