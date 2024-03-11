@@ -14,7 +14,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-
+// Nav bar at the top of the screen
 export default function NavigationBar() {
   const currentPage = useLocation().pathname;
   return (
