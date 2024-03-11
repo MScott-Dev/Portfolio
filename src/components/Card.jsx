@@ -1,30 +1,19 @@
-export default function Card() {
+export default function Card(props) {
     return (
-        <div className="bg-gray-900 w-[24rem] h-[28rem]rounded-lg">
-            <div className="flex p-2 gap-1">
-                <div className="">
-                    <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
+        <div className="card lg:card-side bg-gray-900 shadow-xl w-[29rem] lg:w-auto md:w-60 sm:w-48 p-4">
+                    <figure><img className="lg:w-72 md:w-60 sm:w-48" src={props.image} alt="Text editer PWA"/></figure>
+                    <div className="card-body lg:w-72 md:w-60 sm:w-48">
+                        <h2 className="card-title text-Offwhite">{props.title}</h2>
+                        <p className="text-Offwhite">{props.description}</p>
+                        <div className="card-actions justify-end">
+                            <a href={props.github}>
+                                <button className="btn bg-teal border-teal text-Offwhite">GitHub</button>
+                            </a>
+                            <a href={props.live}>
+                                <button  className="btn bg-teal border-teal text-Offwhite">Live</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div className="circle">
-                    <span className="bg-yellow-500 inline-block center w-3 h-3 rounded-full"></span>
-                </div>
-                <div className="circle">
-                    <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
-                </div>
-            </div>
-                <div className="card__content flex justify-center">
-                    <img className="w-[22rem]" src={} />
-                </div>
-                <div>
-                    <p className="text-Offwhite mx-4">Fake Store</p>
-                </div>
-                <div>
-                    <p className="text-Offwhite mx-4">
-                    Lorem ipsum dolor, 
-                    sit amet consectetur adipisicing elit. Quasi sit dicta voluptates 
-                    culpa maxime eligendi tempore est blanditiis voluptatum cumque!
-                    </p>
-                </div>
-        </div>
     )
 }
