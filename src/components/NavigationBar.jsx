@@ -1,6 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link, useLocation } from 'react-router-dom';
+import Luna from "../assets/images/samoyed.png"
 
 const navigation = [
   { name: 'Dashboard', href: '/', current: true },
@@ -39,8 +40,8 @@ export default function NavigationBar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    src={Luna}
+                    alt="Samoyed"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
