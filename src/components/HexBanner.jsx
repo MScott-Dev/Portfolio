@@ -1,3 +1,4 @@
+// Banner between sections
 export default function HexBanner(props) {
     return (
         <section className="w-full h-[20rem] banner border-t border-b border-teal">
